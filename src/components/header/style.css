@@ -1,0 +1,28 @@
+.cafechi-header-container {
+  padding: 10px;
+  direction: ltr;
+  min-height: 150px;
+}
+.cafechi-header-logo,
+.cafechi-header-cafe-name,
+.cafechi-header-QR-container {
+  display: inline-block;
+}
+.cafechi-header-logo {
+  margin: 1px;
+  float: left;
+  width: 128px;
+  height: 128px;
+}
+.cafechi-header-cafe-name {
+  margin: 0;
+  margin-left: 10px;
+  line-height: 120px;
+}
+.cafechi-header-QR-container {
+  float: right;
+  margin-top: 1px;
+  margin-right: 10px;
+  width: 128px;
+  height: 128px;
+}
