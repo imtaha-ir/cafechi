@@ -8,7 +8,7 @@ import Header from "./components/header/header";
 function App() {
   return (
     <div>
-      <Header cafeName="Café You" instagram="cafeyou" logo={logo} />
+      <Header cafeName="Café Chi" instagram="cafechi1402" logo={logo} />
       <main className="menu-container">
         <article className="menu-item">
           <img src={hambugerImage} alt="" />
