@@ -1,0 +1,68 @@
+body {
+  background-color: #444;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+main {
+  padding: 10px;
+}
+footer {
+  margin-top: 8px;
+}
+
+.menu-item {
+  position: relative;
+  margin: 0.5cm;
+  color: #c0bebb;
+  background-color: #2a2a2a;
+  padding: 10px;
+  padding-right: 150px;
+  min-height: 130px;
+}
+
+.menu-item h3 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 120%;
+}
+.menu-item > span {
+  display: inline-block;
+  position: absolute;
+  background-color: red;
+  padding: 5px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-weight: bolder;
+  font-size: 120%;
+  top: 0;
+  right: 0;
+  text-align: center;
+  color: yellow;
+}
+
+.menu-item > img {
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu-item > .food-info {
+  text-align: right;
+}
+
+.menu-item > div.food-price {
+  color: #add8e6;
+  font-size: 150%;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.menu-item.unavailable {
+  opacity: 0.5;
+}
